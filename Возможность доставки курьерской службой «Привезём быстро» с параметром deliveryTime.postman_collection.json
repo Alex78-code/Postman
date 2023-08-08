@@ -1,0 +1,458 @@
+{
+	"info": {
+		"_postman_id": "7ed7d3df-f902-4761-820e-46c9402db957",
+		"name": "Возможность доставки курьерской службой «Привезём быстро» с параметром deliveryTime",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20769597"
+	},
+	"item": [
+		{
+			"name": "Допустимое время работы доставки 07 часов в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>07</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимое время работы доставки 08 часов в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>08</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимое время работы доставки 20 часов в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимое время работы доставки 21 часов в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>21</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимое время работы доставки 15 часов в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>15</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Недопустимое время работы доставки 03 часа в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>03</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Недопустимое время работы доставки 05 часов в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>05</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Недопустимое время работы доставки 06 часов в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>06</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Недопустимое время работы доставки 00 часов в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>00</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Недопустимое время работы доставки 01 часа в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>01</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Недопустимое время работы доставки 22 часа в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>22</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Недопустимое время работы доставки 23 часа в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>23</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Несуществуеещее время работы доставки 25 часов в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>25</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Пустое значение в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>10</productsCount>\r\n    <productsWeight>5</productsWeight>\r\n    <deliveryTime/>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Не передан параметр deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>10</productsCount>\r\n    <productsWeight>5</productsWeight>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Передан другой тип данных в параметре deliveryTime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>10</productsCount>\r\n    <productsWeight>5</productsWeight>\r\n    <deliveryTime>Восемь</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

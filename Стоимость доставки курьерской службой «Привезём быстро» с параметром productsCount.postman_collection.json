@@ -1,0 +1,486 @@
+{
+	"info": {
+		"_postman_id": "27f793ac-06b0-49d5-aac7-0fc0006415b3",
+		"name": "Стоимость доставки курьерской службой «Привезём быстро» с параметром productsCount",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20769597"
+	},
+	"item": [
+		{
+			"name": "Стоимость доставки 23 руб, для клинта 0 руб при количестве продуктов (productsCount) -5 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>5</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 23 руб, для клинта 0 руб при количестве продуктов (productsCount) -7 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>7</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 23 руб, для клинта 0 руб при количестве продуктов (productsCount) -1 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 23 руб, для клинта 0 руб при количестве продуктов (productsCount) -6 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>6</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 43 руб, для клинта 0 руб при количестве продуктов (productsCount) -8 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>8</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 43 руб, для клинта 0 руб при количестве продуктов (productsCount) -9 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>9</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 43 руб, для клинта 0 руб при количестве продуктов (productsCount) -13 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>13</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 43 руб, для клинта 0 руб при количестве продуктов (productsCount) -14 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>14</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 43 руб, для клинта 0 руб при количестве продуктов (productsCount) -10 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>10</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 43 руб, для клинта 99 руб при количестве продуктов (productsCount) -15 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>15</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 43 руб, для клинта 99 руб при количестве продуктов (productsCount) -16 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>16</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки 43 руб, для клинта 99 руб при количестве продуктов (productsCount) - 20 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>20</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Несуществующее количество продуктов (productsCount) - \"-1 шт\"",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>-1</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Несуществующее количество продуктов (productsCount) - 0 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>0</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Предан другой тип данных в параметре (productsCount)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>Семь</productsCount>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Передано пустое значение параметра (productsCount)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount/>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Не передан параметр (productsCount)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsWeight>1</productsWeight>\r\n    <deliveryTime>10</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server_URL}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

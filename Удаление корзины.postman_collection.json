@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "39507d2e-ec64-4fbf-836c-8f7f38beeb72",
+		"name": "Удаление корзины",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20769597"
+	},
+	"item": [
+		{
+			"name": "Удаление существующей корзины",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{Server_URL}}/api/v1/orders/1",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление несуществующей корзины",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{Server_URL}}/api/v1/orders/5",
+					"host": [
+						"{{Server_URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
